@@ -1,0 +1,27 @@
+.form-center {
+  display: flex;
+}
+
+.form-group {
+  padding: 1rem 0.7rem;
+  flex: 1;
+}
+
+label {
+  display: block;
+  color: var(--secondColor);
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.form-control {
+  background-color: transparent !important;
+  border: none;
+  border-bottom: 1px solid var(--secondColor);
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
